@@ -136,6 +136,16 @@ header {
     height: 100%;
 }
 
+.title-right-img-bg {
+    transition: .4s;
+    overflow: hidden;
+}
+
+.title-right-img-bg:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
 .project-timeline {
     padding-bottom: 50px;
 }
@@ -159,6 +169,8 @@ header {
 .singel-project-img {
     height: 300px;
     background: #ddd;
+    transition: .4s;
+    overflow: hidden;
 }
 
 .project-gallery {
@@ -182,6 +194,17 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+.singel-project-img:hover .project-img-1, .singel-project-img:hover .project-img-2, .singel-project-img:hover .project-img-3 {
+    transform: scale(1.03);
+    cursor: pointer;
+
+}
+
+.project-img-1,.project-img-2,.project-img-3 {
+    transition: .4s;
+}
+
 .project-role-aproch {
     margin-bottom: 50px;
 }
