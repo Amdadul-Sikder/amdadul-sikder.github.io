@@ -387,6 +387,8 @@ section.home {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .portfolio .item{width: 100%;}
+
     .contact{
         flex-direction: column;
     }
@@ -417,7 +419,7 @@ section.home {
     }
     
     .work-section, .contact-section{
-        padding: 50px;
+        padding: 50px 15px;
     }
     .services .service {
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -426,7 +428,10 @@ section.home {
         margin-top: 0px;
     }
     .contact-form{
-        padding: 10px;
+        padding: 15px;
+    }
+    .contact-info{
+        padding: 60px;
     }
     .title{
         text-align: center;
