@@ -206,6 +206,7 @@ section.home {
 .service:hover {
     box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
     transition: .3s;
+    cursor:pointer;
 }
 
 
